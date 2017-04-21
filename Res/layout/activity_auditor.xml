@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hatbox.amqr_code.Auditor">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableLeft="@drawable/ico_scan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Pindai QR-Code"
+        android:id="@+id/btn_adtTOscan"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_vertical|right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:drawableLeft="@drawable/ico_help"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="bantuan"
+        android:id="@+id/btn_adtTOhelp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_vertical|right"
+        android:layout_below="@+id/btn_adtTOscan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keluar"
+        android:id="@+id/btn_adtTOlogin"
+        android:drawableRight="@drawable/ico_out"
+        android:gravity="left|center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
